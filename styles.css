@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+    font-size:125%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+p {
+    font-family: verdana
+}
+
+h2 a:link,
+h2 a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: rgb(209, 31, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
